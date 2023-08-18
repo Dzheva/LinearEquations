@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SimpleEquations" />
         <module name="Equations" />
+        <module name="LinearEquations" />
       </profile>
     </annotationProcessing>
   </component>

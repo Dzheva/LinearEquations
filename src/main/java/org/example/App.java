@@ -16,9 +16,6 @@ public class App {
         int function = scanner.nextInt();
 
         switch (function) {
-            case 0:
-                System.exit(0);
-                break;
             case 1:
                 System.out.println("Enter a mathematical equation:");
                 String equation = scanner.next();
@@ -31,7 +28,7 @@ public class App {
                 service.getAllEquationsByRoot(root);
                 break;
             default:
-                System.out.println("Wrong input, enter only 0, 1, or 2.");
+                System.out.println("Wrong input, enter only 1 or 2.");
         }
         scanner.close();
     }
